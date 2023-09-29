@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive-Blog-website</title>
+    <!-- <link to css file> -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header>
+      <div class="nav container">
+        <!-- logo -->
+        <a href="#" class="logo">Ve<span>nom</span></a>
+        <!-- login btn -->
+        <a href="#" class="login">Login</a>
+      </div>
+    </header>
+    <!-- home  -->
+    <section class="home" id="home">
+      <div class="home-text container">
+        <h2 class="home-title">The Venom Blog</h2>
+        <span class="home-subtitle">Your source of great content</span>
+      </div>
+    </section>
+
+    <!-- post filter -->
+    <div class="post-filter container">
+      <span class="filter-item active-filter" data-filter="all">All</span>
+      <span class="filter-item" data-filter="design">Design</span>
+      <span class="filter-item" data-filter="tech">Tech</span>
+      <span class="filter-item" data-filter="mobile">Mobile</span>
+    </div>
+
+    <!-- post -->
+    <section class="post container">
+      <!-- post box 1 -->
+      <div class="post-box mobile">
+        <img src="img/post-1.jpg" alt="" class="post-img" />
+        <h2 class="category">Mobile</h2>
+        <a href="post-page.html" class="post-title">
+          How To Create Best UX Design With Adobe XD
+        </a>
+        <span class="post-date">23 Oct 2022</span>
+        <p class="post-description">
+          Having undertaken initial user research and analyzed your research
+          findings, the next phase of the design process is to apply what you've
+          learned by developing a series of designs to test your assumptions. In
+          this article series, I'll be focusing on the initial phase of the
+          design process at a higher level, from a birds eye point of view. As I
+          explored in my preceding article on research, it's important to stress
+          that we're building on the user research undertaken. Having analyzed
+          our research findings, our goal at this phase of the design process is
+          to: establish some clear user pathways that satisfy different users
+          needs by embracing user stories, scenarios and storyboarding; apply
+          some lessons from the world of human computer interaction (HCI) so
+          that we design with first principles in mind; and establish a look and
+          feel for our designs in a manner that's device-agnostic that can be
+          applied in both a desktop and mobile context. In short, this article
+          is intended to act as a bridge between the research phase and the
+          design phase. As I stressed in my last article, the design process
+          research, design, prototype, build, test is an iterative one; at this
+          phase in the process we're focused on developing a series of designs
+          that we can prototype, build and test.
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img src="img/profile-1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Marques Brown</span>
+        </div>
+      </div>
+
+      <!-- post box 2 -->
+      <div class="post-box tech">
+        <img src="img/post-2.jpg" alt="" class="post-img" />
+        <h2 class="category">Tech</h2>
+        <a href="post-page.html" class="post-title">
+          How to make code reviews helpful: A complete guide
+        </a>
+        <span class="post-date">23 Oct 2022</span>
+        <p class="post-description">
+          Code reviews: you either love them, or you hate them! If you fall into
+          the former category, it may be because you've been on the receiving
+          end of some pretty poor mandatory code reviews, or had the whole
+          process add unpredictably long latencies to your workflow. This is a
+          shame, because a great code review culture can be a massive boon to
+          both a business and the final product. In this guide, we cover how you
+          can be a better code reviewer, and share a number of resources every
+          developer should have in their bookmark bar. For those of you who want
+          a more comprehensive delve into the topic of code reviews — or simply
+          like watching videos — check out our course on Code Reviews: Best
+          Practices. On top of the fundamental process, it covers how to
+          automate static code analysis, create effective pull requests, and
+          manage difficult code review situations.
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img src="img/profile-2.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Marques Brown</span>
+        </div>
+      </div>
+
+      <!-- post box 3 -->
+      <div class="post-box mobile">
+        <img src="img/post-3.jpg" alt="" class="post-img" />
+        <h2 class="category">Mobile</h2>
+        <a href="post-page.html" class="post-title">
+          THE IPHONE 14 PRO ISN'T AS BIG OF AN UPGRADE AS APPLE THINKS
+        </a>
+        <span class="post-date">23 Oct 2022</span>
+        <p class="post-description">
+          APPLE LOVES NOTHING more than using the word best. The new iPhone 14
+          Pro is the “best iPhone yet,” with a 48-megapixel camera system that
+          lets you capture the “best photos and video.” It's usually easy to
+          validate these claims after some real-world testing, especially with
+          cameras. Newer, larger image sensors often outperform the old. But
+          this year, the results are … complicated. I've snapped more than 250
+          photos with four phones over the past few days, and last year's iPhone
+          13 Pro occasionally bested the brand-new model. Even where the iPhone
+          14 Pro came out on top, the improvements were so marginal that I'm
+          left wondering if Apple just overhyped its product. Don't get me
+          wrong, the 14 Pro has wonderful cameras—some of the best you can get
+          in a smartphone, particularly when it comes to video—but the
+          improvements aren't as dramatic as the company suggests.
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img src="img/profile-3.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Marques Brown</span>
+        </div>
+      </div>
+
+      <!-- ----------------------------------------------------------------------------------- -->
+      <!-- post box 4 -->
+      <div class="post-box design">
+        <img src="img/post-4.jpg" alt="" class="post-img" />
+        <h2 class="category">Design</h2>
+        <a href="post-page.html" class="post-title">
+          How To Create Best UX Design With Adobe XD
+        </a>
+        <span class="post-date">23 Oct 2022</span>
+        <p class="post-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+          maiores esse voluptatum perferendis fugit deleniti voluptatem
+          similique sequi, vero minima eum aspernatur laudantium veniam
+          consectetur, dolorem, non itaque animi a.
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img src="img/profile-1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Marques Brown</span>
+        </div>
+      </div>
+
+      <!-- post box 5 -->
+      <div class="post-box tech">
+        <img src="img/post-5.jpg" alt="" class="post-img" />
+        <h2 class="category">Tech</h2>
+        <a href="post-page.html" class="post-title">
+          How To Create UX Design With Adobe XD
+        </a>
+        <span class="post-date">23 Oct 2022</span>
+        <p class="post-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+          maiores esse voluptatum perferendis fugit deleniti voluptatem
+          similique sequi, vero minima eum aspernatur laudantium veniam
+          consectetur, dolorem, non itaque animi a.
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img src="img/profile-2.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Marques Brown</span>
+        </div>
+      </div>
+
+      <!-- post box 6 -->
+      <div class="post-box mobile">
+        <img src="img/post-6.jpg" alt="" class="post-img" />
+        <h2 class="category">Mobile</h2>
+        <a href="post-page.html" class="post-title">
+          How To Create UX Design With Adobe XD
+        </a>
+        <span class="post-date">23 Oct 2022</span>
+        <p class="post-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+          maiores esse voluptatum perferendis fugit deleniti voluptatem
+          similique sequi, vero minima eum aspernatur laudantium veniam
+          consectetur, dolorem, non itaque animi a.
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img src="img/profile-3.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Marques Brown</span>
+        </div>
+      </div>
+
+      <!-- ---------------------------------------------------------------------------------------------- -->
+      <!-- post box 7 -->
+      <div class="post-box design">
+        <img src="img/post-7.jpg" alt="" class="post-img" />
+        <h2 class="category">Design</h2>
+        <a href="post-page.html" class="post-title">
+          How To Create Best UX Design With Adobe XD
+        </a>
+        <span class="post-date">23 Oct 2022</span>
+        <p class="post-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+          maiores esse voluptatum perferendis fugit deleniti voluptatem
+          similique sequi, vero minima eum aspernatur laudantium veniam
+          consectetur, dolorem, non itaque animi a.
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img src="img/profile-1.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Marques Brown</span>
+        </div>
+      </div>
+
+      <!-- post box 8 -->
+      <div class="post-box tech">
+        <img src="img/post-8.jpg" alt="" class="post-img" />
+        <h2 class="category">Tech</h2>
+        <a href="post-page.html" class="post-title">
+          How To Create UX Design With Adobe XD
+        </a>
+        <span class="post-date">23 Oct 2022</span>
+        <p class="post-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+          maiores esse voluptatum perferendis fugit deleniti voluptatem
+          similique sequi, vero minima eum aspernatur laudantium veniam
+          consectetur, dolorem, non itaque animi a.
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img src="img/profile-2.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Marques Brown</span>
+        </div>
+      </div>
+
+      <!-- post box 9 -->
+      <div class="post-box design">
+        <img src="img/post-9.jpg" alt="" class="post-img" />
+        <h2 class="category">Design</h2>
+        <a href="post-page.html" class="post-title">
+          How To Create UX Design With Adobe XD
+        </a>
+        <span class="post-date">23 Oct 2022</span>
+        <p class="post-description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+          maiores esse voluptatum perferendis fugit deleniti voluptatem
+          similique sequi, vero minima eum aspernatur laudantium veniam
+          consectetur, dolorem, non itaque animi a.
+        </p>
+        <!-- profile -->
+        <div class="profile">
+          <img src="img/profile-3.jpg" alt="" class="profile-img" />
+          <span class="profile-name">Marques Brown</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <div class="footer container">
+      <p>&#169; Venom All Rights Reserved</p>
+      <div class="social">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <!-- link to js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
